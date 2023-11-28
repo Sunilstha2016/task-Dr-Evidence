@@ -9,7 +9,7 @@ export VAULT_TOKEN=myroot
 
 ##### Store a secret  ######
 
-vault kv put secret/myapp/config username=admin password=secretpassword
+vault kv put secret/myapp/config username=admin password=admin123
 
 ######  Retrieve a secret  ######
 

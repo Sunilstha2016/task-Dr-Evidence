@@ -3,7 +3,7 @@
     address = ":80"
     [entryPoints.http.auth]
       [entryPoints.http.auth.basic]
-        users = ["your_username:your_password"]
+        users = ["sunil:sunil123"]
 
 #########Replace "your_username" and "your_password" with your desired credentials.##########
 
