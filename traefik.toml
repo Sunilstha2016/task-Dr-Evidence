@@ -1,0 +1,9 @@
+[entryPoints]
+  [entryPoints.http]
+    address = ":80"
+    [entryPoints.http.auth]
+      [entryPoints.http.auth.basic]
+        users = ["your_username:your_password"]
+
+#########Replace "your_username" and "your_password" with your desired credentials.##########
+
